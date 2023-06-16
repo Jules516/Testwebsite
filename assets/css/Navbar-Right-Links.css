@@ -1,0 +1,1872 @@
+.bs-icon {
+  --bs-icon-size: .75rem;
+  display: flex;
+  flex-shrink: 0;
+  justify-content: center;
+  align-items: center;
+  font-size: var(--bs-icon-size);
+  width: calc(var(--bs-icon-size) * 2);
+  height: calc(var(--bs-icon-size) * 2);
+  color: var(--bs-primary);
+}
+
+.bs-icon-xs {
+  --bs-icon-size: 1rem;
+  width: calc(var(--bs-icon-size) * 1.5);
+  height: calc(var(--bs-icon-size) * 1.5);
+}
+
+.bs-icon-sm {
+  --bs-icon-size: 1rem;
+}
+
+.bs-icon-md {
+  --bs-icon-size: 1.5rem;
+}
+
+.bs-icon-lg {
+  --bs-icon-size: 2rem;
+}
+
+.bs-icon-xl {
+  --bs-icon-size: 2.5rem;
+}
+
+.bs-icon.bs-icon-primary {
+  color: var(--bs-white);
+  background: var(--bs-primary);
+}
+
+.bs-icon.bs-icon-primary-light {
+  color: var(--bs-primary);
+  background: rgba(var(--bs-primary-rgb), .2);
+}
+
+.bs-icon.bs-icon-semi-white {
+  color: var(--bs-primary);
+  background: rgba(255, 255, 255, .5);
+}
+
+.bs-icon.bs-icon-rounded {
+  border-radius: .5rem;
+}
+
+.bs-icon.bs-icon-circle {
+  border-radius: 50%;
+}
+
+#home {
+  background: url("../../assets/img/tspc.png") center / cover no-repeat;
+  /*background-color: rgba(0,0,0,0.4);*/
+  /*background-blend-mode: overlay;*/
+  border-radius: 0px;
+  box-shadow: 0px 0px 20px;
+}
+
+a {
+  text-decoration: none;
+  color: #666666;
+}
+
+#recruit-top {
+  background: url("../../assets/img/japan.tsc.jpg") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+@media (min-width: 250px) {
+  #thoughts-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 250px) {
+  #profile-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-intro-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 250px) {
+  #history-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 250px) {
+  #domestic-comp-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 250px) {
+  #overseas-img {
+    width: 180px;
+  }
+}
+
+@media (min-width: 250px) {
+  #news-table {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #media-table {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #work-style-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 250px) {
+  #work-style-paragraph {
+    text-align: center;
+  }
+}
+
+@media (min-width: 250px) {
+  #work-style-heading-pg {
+    text-align: center;
+  }
+}
+
+@media (min-width: 250px) {
+  #good-award-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 250px) {
+  #chairs-for-employees-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 250px) {
+  #chairs-for-employees-heading {
+    text-align: center;
+  }
+}
+
+@media (min-width: 250px) {
+  #chairs-for-employees-paragraph {
+    text-align: center;
+  }
+}
+
+@media (min-width: 250px) {
+  #recruitment-info-button {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #msg-from-recruiter-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 250px) {
+  #toyoseat-by-the-numbers-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 250px) {
+  #recruitment-blog-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 250px) {
+  #senior-employee-interview-img {
+    width: 220px;
+  }
+}
+
+@media (min-width: 300px) {
+  #thoughts-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #profile-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-intro-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-intro-home {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #history-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #history-home {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #domestic-home {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #domestic-comp-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #overseas-home {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #overseas-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #news-cell {
+    width: 98px;
+  }
+}
+
+@media (min-width: 300px) {
+  #initiatives-col-1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #initiatives-col-2 {
+    text-align: center;
+  }
+}
+
+#work-style-img {
+  width: 270px;
+}
+
+@media (min-width: 300px) {
+  #good-award-img {
+    width: 270px;
+  }
+}
+
+@media (min-width: 300px) {
+  #chairs-for-employees-img {
+    width: 270px;
+  }
+}
+
+@media (min-width: 300px) {
+  #initiatives-col-3 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #recruit-col-1 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 300px) {
+  #recruit-col-2 {
+    text-align: center;
+  }
+}
+
+#recruit-col-3 {
+  text-align: center;
+}
+
+#recruit-col-4 {
+  text-align: center;
+}
+
+@media (min-width: 300px) {
+  #msg-from-recruiter-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #toyoseat-by-the-numbers-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #recruitment-blog-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #senior-employee-interview-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 300px) {
+  #footer-col-2 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #our-thoughts-home {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #company-profile-home {
+    text-align: center;
+  }
+}
+
+@media (min-width: 576px) {
+  #thoughts-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 576px) {
+  #profile-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 576px) {
+  #business-intro-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 576px) {
+  #history-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 576px) {
+  #domestic-comp-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 576px) {
+  #overseas-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 576px) {
+  #media-cell {
+    width: 120px;
+  }
+}
+
+@media (min-width: 576px) {
+  #news-cell {
+    width: 120px;
+  }
+}
+
+@media (min-width: 768px) {
+  #business-intro-img {
+    width: 175px;
+  }
+}
+
+@media (min-width: 768px) {
+  #history-img {
+    width: 175px;
+  }
+}
+
+@media (min-width: 768px) {
+  #domestic-comp-img {
+    width: 175px;
+  }
+}
+
+@media (min-width: 768px) {
+  #overseas-img {
+    width: 175px;
+  }
+}
+
+@media (min-width: 768px) {
+  #footer-col-2 {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #our-thoughts-home {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #company-profile-home {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-intro-home {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #history-home {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #domestic-home {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #overseas-home {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #msg-from-recruiter-img {
+    width: 370px;
+  }
+}
+
+@media (min-width: 992px) {
+  #toyoseat-by-the-numbers-img {
+    width: 370px;
+  }
+}
+
+@media (min-width: 992px) {
+  #recruit-col-1 {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #recruit-col-2 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 992px) {
+  #recruitment-blog-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  #senior-employee-interview-img {
+    width: 340px;
+  }
+}
+
+@media (min-width: 992px) {
+  #recruit-col-3 {
+    text-align: right;
+  }
+}
+
+@media (min-width: 992px) {
+  #recruit-col-4 {
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  #thoughts-img {
+    width: 410px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #profile-img {
+    width: 410px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #business-intro-img {
+    width: 236px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #history-img {
+    width: 236px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #domestic-comp-img {
+    width: 236px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #overseas-img {
+    width: 236px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #news-col-1 {
+    padding-left: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #news-col-2 {
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #news-table {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #media-table {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #media-cell {
+    width: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #news-cell {
+    width: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #work-style-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #good-award-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #chairs-for-employees-img {
+    width: 290px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #work-style-paragraph {
+    width: 320px;
+    padding-left: 40px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  #work-style-heading-pg {
+    width: 300px;
+    padding-left: 40px;
+    text-align: left;
+  }
+}
+
+@media (min-width: 1200px) {
+  #good-award-heading {
+    padding-left: 30px;
+    width: 300px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #good-award-paragraph {
+    text-align: left;
+    width: 330px;
+    padding-left: 30px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #chairs-for-employees-paragraph {
+    text-align: left;
+    width: 344px;
+    padding-left: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #msg-from-recruiter-img {
+    width: 475px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #toyoseat-by-the-numbers-img {
+    width: 475px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #recruitment-blog-img {
+    width: 475px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #senior-employee-interview-img {
+    width: 475px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #footer-col-1 {
+    padding-left: 80px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #footer-col-2 {
+    padding-right: 80px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #work-style-heading-pg {
+    width: 310px;
+    padding-left: 65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #work-style-paragraph {
+    width: 350px;
+    padding-left: 65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #good-award-heading {
+    width: 330px;
+    padding-left: 65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #good-award-paragraph {
+    width: 355px;
+    padding-left: 67px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #chairs-for-employees-paragraph {
+    width: 375px;
+    padding-left: 78px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #chairs-for-employees-heading {
+    text-align: left;
+    padding-left: 35px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #recruit-top-container {
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #recruit-paragraph {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #recruitment-info-button {
+    font-size: 14.77px;
+  }
+}
+
+@media (min-width: 300px) {
+  #recruit-top-heading-main {
+    width: 255px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #recruit-top-heading-main {
+    width: 380px;
+  }
+}
+
+#business-intro-head {
+  background: url("../../assets/img/business-intro/bs-bg.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+@media (min-width: 1400px) {
+  #rnd-heading {
+    font-size: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: var(--bs-blue);
+  }
+}
+
+@media (min-width: 1400px) {
+  #ind-sci-heading {
+    font-size: 32px;
+    font-family: 'Noto Sans JP', sans-serif;
+    border-bottom-style: solid;
+    border-bottom-color: var(--bs-blue);
+  }
+}
+
+@media (min-width: 250px) {
+  #the-chair {
+    width: 180px;
+  }
+}
+
+@media (min-width: 300px) {
+  #shaping-the-future-img {
+    width: 280px;
+  }
+}
+
+@media (min-width: 250px) {
+  #management-purpose-img {
+    width: 215px;
+  }
+}
+
+@media (min-width: 250px) {
+  td {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 300px) {
+  #management-purpose-img {
+    width: 330px;
+  }
+}
+
+@media (min-width: 576px) {
+  #shaping-the-future-img {
+    width: 470px;
+  }
+}
+
+@media (min-width: 576px) {
+  #shaping-the-future-pg {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 576px) {
+  #management-purpose-img {
+    width: 500px;
+  }
+}
+
+@media (min-width: 768px) {
+  #shaping-the-future-img {
+    width: 325px;
+  }
+}
+
+@media (min-width: 300px) {
+  #top-heading {
+    font-size: 25px;
+  }
+}
+
+@media (min-width: 768px) {
+  #shaping-the-future-pg {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  #table {
+    text-align: center;
+  }
+}
+
+@media (min-width: 1200px) {
+  #the-chair {
+    width: 250px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #shaping-the-future-img {
+    width: 470px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #top-heading {
+    font-size: 28px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #management-purpose-img {
+    width: 575px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #company-profile {
+    padding-left: 260px;
+    padding-right: 260px;
+  }
+}
+
+@media (min-width: 992px) {
+  td {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #company-profile {
+    padding-left: 120px;
+    padding-right: 120px;
+  }
+}
+
+@media (min-width: 992px) {
+  td {
+    text-align: left;
+    padding-left: 10;
+  }
+}
+
+@media (min-width: 1200px) {
+  #company-profile {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #company-profile {
+    padding-left: 260px;
+    padding-right: 260px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-heading {
+    padding-left: 50px;
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-intro-col {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-intro-col-heading-1 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-intro-col-pg {
+    font-size: 10.6px;
+  }
+}
+
+@media (min-width: 250px) {
+  #car-seat-heading-1 {
+    font-size: 22px;
+  }
+}
+
+@media (min-width: 250px) {
+  #car-seat-pg-1 {
+    font-size: 12px;
+  }
+}
+
+#business-col-1 {
+  background: url("../../assets/img/business-intro/1st%20heading.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+#business-col-2 {
+  background: url("../../assets/img/news/cinema.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+#busienss-col-3 {
+  background: url("3rd.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+#business-col-4 {
+  background: url("../../assets/img/business-intro/acce.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+@media (min-width: 250px) {
+  #see-more-1 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-col-1 {
+    height: 292.391px;
+  }
+}
+
+@media (min-width: 250px) {
+  #car-seat-pg-2 {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-col-2 {
+    height: 243px;
+    /*margin-bottom: -48px;*/
+  }
+}
+
+@media (min-width: 250px) {
+  #car-seat-pg-3 {
+    height: 265px;
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #busienss-col-3 {
+    padding-top: 26px;
+    height: 390px;
+    margin-bottom: -75px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-col-4 {
+    /*padding-top: 76px;*/
+    /*padding-bottom: 100px;*/
+    margin-bottom: -120px;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature-1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature1-pg {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature2-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature3-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature2-pg {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature4-img {
+    width: 100%;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature4-pg {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 250px) {
+  #feature3-pg {
+    font-size: 12px;
+  }
+}
+
+@media (min-width: 768px) {
+  #business-col-4 {
+    /*margin-bottom: -75px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  #business-heading {
+    padding-left: 75px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-intro-head {
+    height: 275px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-intro-col-heading-1 {
+    font-size: 24px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-intro-col-pg {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-intro-col {
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #management-purpose {
+    padding-top: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-pg-1 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #see-more-1 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-heading-1 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-heading-2 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-pg-2 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-heading-3 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-pg-3 {
+    height: inherit;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #busienss-col-3 {
+    height: 320px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-heading-4 {
+    font-size: 32px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-col-4 {
+    /*padding-bottom: 60px;*/
+    /*padding-top: 50px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  #feature1-pg {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature2-pg {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature-heading1-2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature-heading2-2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature-heading3-2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature-heading4-2 {
+    font-size: 20px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature3-pg {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #feature4-pg {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #features {
+    padding: 0px 160px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #features {
+    padding-left: 200px;
+    padding-right: 200px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #business-col-2 {
+    /*margin-bottom: -35px;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  #busienss-col-3 {
+    margin-bottom: -65px;
+  }
+}
+
+@media (min-width: 1400px) {
+  #business-col-1 {
+  }
+}
+
+@media (min-width: 1400px) {
+  #business-col-4 {
+    margin-bottom: -55px;
+  }
+}
+
+@media (min-width: 250px) {
+  #car-seat-1 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 250px) {
+  #car-seat-2 {
+    width: 100%;
+  }
+}
+
+@media (min-width: 576px) {
+  #car-seat-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #car-seat-1-pg {
+    margin: 0px 80px;
+  }
+}
+
+@media (min-width: 576px) {
+  #car-seat-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #car-seat-2-pg {
+    margin: 0px 80px;
+  }
+}
+
+@media (min-width: 768px) {
+  #car-seat-2-pg {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #car-seat-2 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #car-seat-1 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #car-seat-1-pg {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-2-pg {
+    margin-left: 44px;
+    margin-right: 45px;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #car-seat-1-pg {
+    margin-right: 45px;
+    margin-left: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #car-seat-1-pg {
+    margin-left: 129px;
+    margin-right: 130px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #car-seat-2-pg {
+    margin-left: 129px;
+    margin-right: 130px;
+  }
+}
+
+@media (min-width: 250px) {
+  #top-1 {
+    width: inherit;
+  }
+}
+
+@media (min-width: 250px) {
+  #top-2 {
+    width: inherit;
+  }
+}
+
+@media (min-width: 576px) {
+  #top-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #top-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #top-1-pg {
+    margin: 0px 82px;
+  }
+}
+
+@media (min-width: 576px) {
+  #top-2-pg {
+    margin: 0px 82px;
+  }
+}
+
+@media (min-width: 768px) {
+  #top-1 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #top-2 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #top-1-pg {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 768px) {
+  #top-2-pg {
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  #top-1-pg {
+    margin-right: 45px;
+    margin-left: 44px;
+  }
+}
+
+@media (min-width: 992px) {
+  #top-2-pg {
+    margin-right: 45px;
+    margin-left: 44px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #top-1-pg {
+    margin-left: 128px;
+    margin-right: 129px;
+  }
+}
+
+@media (min-width: 992px) {
+  #top-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #top-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  #top-2-pg {
+    margin-left: 128px;
+    margin-right: 129px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #management-purpose {
+    padding-left: 160px;
+    padding-right: 160px;
+    padding-top: 30px;
+  }
+}
+
+@media (min-width: 250px) {
+  #parts-1 {
+    width: inherit;
+  }
+}
+
+@media (min-width: 250px) {
+  #parts-2 {
+    width: inherit;
+  }
+}
+
+@media (min-width: 576px) {
+  #parts-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #parts-1-pg {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+
+@media (min-width: 576px) {
+  #parts-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #parts-2-pg {
+    margin-left: 90px;
+    margin-right: 90px;
+  }
+}
+
+@media (min-width: 768px) {
+  #parts-1 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #parts-1-pg {
+    margin: 0px;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #parts-2 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #parts-2-pg {
+    margin: 0px;
+  }
+}
+
+@media (min-width: 992px) {
+  #parts-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #parts-1-pg {
+    margin-right: 50px;
+    margin-left: 50px;
+  }
+}
+
+@media (min-width: 992px) {
+  #parts-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #parts-2-pg {
+    margin: 0px 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #parts-1 {
+  }
+}
+
+@media (min-width: 1200px) {
+  #parts-1-pg {
+    margin-left: 133px;
+    margin-right: 134px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #parts-2-pg {
+    margin-left: 133px;
+    margin-right: 134px;
+  }
+}
+
+@media (min-width: 250px) {
+  #other-seats-1 {
+    width: inherit;
+  }
+}
+
+@media (min-width: 250px) {
+  #other-seats-2 {
+    width: inherit;
+  }
+}
+
+@media (min-width: 576px) {
+  #other-seats-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 576px) {
+  #other-seats-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 768px) {
+  #other-seats-1-pg {
+    margin: 0;
+    margin-bottom: 30px;
+  }
+}
+
+@media (min-width: 768px) {
+  #other-seats-2-pg {
+    margin: 0;
+  }
+}
+
+@media (min-width: 768px) {
+  #other-seats-1 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 768px) {
+  #other-seats-2 {
+    width: 224px;
+  }
+}
+
+@media (min-width: 992px) {
+  #other-seats-1 {
+    width: initial;
+  }
+}
+
+@media (min-width: 992px) {
+  #other-seats-1-pg {
+    /*margin-left: 50px;*/
+    /*margin-right: 50px;*/
+  }
+}
+
+@media (min-width: 992px) {
+  #other-seats-2 {
+    width: initial;
+  }
+}
+
+@media (min-width: 1200px) {
+  #other-seats-1-pg {
+    /*margin-left: 135px;*/
+    /*margin-right: 135px;*/
+  }
+}
+
+@media (min-width: 1200px) {
+  #modal-4-col-1 {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #modal-3-col-1 {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #modal-3-col-1 {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #modal-1-col-1 {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #modal-1-col-3 {
+    padding-left: 60px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #business-intro-head {
+    height: 284px;
+  }
+}
+
+#business-heading-1 {
+  background: url("../../assets/img/business-intro/1st%20heading.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+#business-heading-2 {
+  background: url("../../assets/img/news/cinema.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+#business-heading-3 {
+  background: url("../../assets/img/news/moto.png") center / cover no-repeat;
+  border-radius: 0px;
+  /*box-shadow: 0px 0px 20px;*/
+}
+
+#business-heading-4 {
+  background: url("../../assets/img/news/acce.png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+@media (min-width: 250px) {
+  #business-pg-1 {
+    font-size: 8.5px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-pg-2 {
+    font-size: 8.5px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-pg-3 {
+    font-size: 8.5px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-pg-4 {
+    font-size: 8.5px;
+  }
+}
+
+@media (min-width: 250px) {
+  #business-div-4 {
+    margin-top: 60px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-pg-1 {
+    font-size: 10.5px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-div-1 {
+    margin-top: 25px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-pg-2 {
+    font-size: 10.5px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-pg-3 {
+    font-size: 10.5px;
+  }
+}
+
+@media (min-width: 300px) {
+  #business-pg-4 {
+    font-size: 10.5px;
+  }
+}
+
+@media (min-width: 768px) {
+  #business-pg-1 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  #business-pg-2 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  #business-pg-3 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 768px) {
+  #business-pg-4 {
+    font-size: 14px;
+  }
+}
+
+@media (min-width: 576px) {
+  #business-div-1 {
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-pg-1 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-pg-2 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-pg-3 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 992px) {
+  #business-pg-4 {
+    font-size: 16px;
+  }
+}
+
+#home {
+}
+
+#top {
+  background: url("../../assets/img/domestic/domestic-base.jpg") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+#ph-map {
+  background: url("../../assets/img/domestic/Philippines(Domestic).png") center / cover no-repeat;
+  border-radius: 0px;
+}
+
+.carousel-indicators {
+  display: none;
+}
+
+@media (min-width: 1200px) {
+  #accessories-div {
+    padding-left: 90px;
+    padding-right: 90px;
+  }
+}
+
+@media (min-width: 992px) {
+  #quality-column {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 992px) {
+  #environmental-column {
+    padding-right: 100px;
+    padding-left: 100px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #environmental-column {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #quality-column {
+    padding-right: 150px;
+    padding-left: 150px;
+  }
+}
+
